@@ -1,0 +1,12 @@
+{
+  "name": "JAMstackTodo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/adil-innovation-lab/JAMstackTodo.git",
+  "author": "adil-innovation-lab <khanadilaltaf@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
