@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
 import { Container, Heading, Button, Flex, NavLink } from "theme-ui";
 import netlifyIdentity from "netlify-identity-widget";
@@ -21,6 +22,12 @@ export default props => {
    });
 
    return (
+=======
+import React from "react";
+import { Container, Heading, Button, Flex } from "theme-ui";
+
+export default props => (
+>>>>>>> parent of 5a077f6... Added Netlify Identity
     <Container>
         <Flex as='nav'>
             <NavLink as={Link} to="/" p={2}>
@@ -36,10 +43,10 @@ export default props => {
         <Flex sx={{ flexDirection: "column", padding: 3 }}>
             <Heading as="h1">Todo App</Heading>
             <Button sx={{ marginTop: 2, color: 'black' }}
-                onClick= { () => { netlifyIdentity.open() } }
+                onClick= { () => {alert("Login")} }
             >
                 Login
             </Button>
         </Flex>
     </Container>
-)}
+);
