@@ -12,7 +12,10 @@
     "@theme-ui/presets": "^0.3.0",
     "gatsby": "^2.24.80",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "gatsby-plugin-create-client-paths": "^2.3.13",
+=======
+>>>>>>> parent of 8fcece2... Working on Client Side Dashboard Route
     "netlify-identity-widget": "^1.9.1",
 =======
 >>>>>>> parent of 5a077f6... Added Netlify Identity
