@@ -11,6 +11,7 @@
   "dependencies": {
     "@theme-ui/presets": "^0.3.0",
     "gatsby": "^2.24.80",
+    "gatsby-plugin-create-client-paths": "^2.3.13",
     "netlify-identity-widget": "^1.9.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
